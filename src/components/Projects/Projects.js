@@ -69,7 +69,7 @@ class Projects extends React.Component {
 
         const design_projects = {
             "tiger sticker": {
-                image: "./tiger_sticker.JPG",
+                image: require('./tiger_sticker.JPG'),
               },
             
             };
@@ -102,7 +102,7 @@ class Projects extends React.Component {
                 </div>
 
                 <div className="section-header">
-                <span className="section-title">{"UI/UXProjects"}</span>
+                <span className="section-title">{"UI/UX Projects"}</span>
                 </div>
                     <div className="projects-container">
                     <ul className="projects-grid">
