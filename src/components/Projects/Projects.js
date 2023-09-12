@@ -64,12 +64,38 @@ class Projects extends React.Component {
                 link: "https://www.figma.com/proto/F5wRB3t9w53HW66lBKumLT/CPS613---P3?scaling=scale-down&page-id=0%3A1&starting-point-node-id=56%3A4&node-id=56-4",
                 open: "https://docs.google.com/document/d/1zhD15yeeT-Vbr9CP37-rgyzWX8-ed9rvzmiKKuxoDWU/edit?usp=sharing"
               },
+
+            "Staff Handbook": {
+                desc:
+                  "handbook",
+                techStack: "Canva",
+                link: "../../assets/CMCP/Indoor & Outdoor Programming Staff Handbook.pdf",
+                open: "https://docs.google.com/document/d/1zhD15yeeT-Vbr9CP37-rgyzWX8-ed9rvzmiKKuxoDWU/edit?usp=sharing"
+              }, // doesn't work
             
             };
 
         const design_projects = {
             "tiger sticker": {
-                image: require('./tiger_sticker.JPG'),
+                image: require('../../assets/AAPI_stickers/tiger_sticker.JPG'),
+              },
+            "tiger rice paper": {
+                image: require('../../assets/AAPI_stickers/tiger_ricepaper_sticker.JPG'),
+              },
+            "dragon sticker": {
+                image: require('../../assets/AAPI_stickers/dragon_sticker.JPG'),
+              },
+            "frog sticker": {
+                image: require('../../assets/AAPI_stickers/frog_sticker.JPG'),
+              },
+            "self portrait": {
+                image: require('../../assets/drawings/self_portrait.PNG'),
+              },
+            "rose sword": {
+                image: require('../../assets/drawings/rosesword.JPG'),
+              },
+            "avacado": {
+                image: require('../../assets/drawings/avacado.jpg'),
               },
             
             };
@@ -110,7 +136,7 @@ class Projects extends React.Component {
                         <div key={index}>
                         <li className="projects-card">
                             <div className="projects-card-header">
-                                <a className="external-link1" href={uiux_projects[key]["link"]}>figma</a>
+                                <a className="external-link1" href={uiux_projects[key]["link"]}>prototype</a>
                                 <a className="external-link2" href={uiux_projects[key]["open"]}>report</a>
                                 
                                 <div className="card-title">{key}</div>
