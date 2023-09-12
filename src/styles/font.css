@@ -1,0 +1,6 @@
+@font-face {
+    font-family: "Poppins";
+    font-weight: 200;
+    /* font-display: fallback; */
+    src: local("Poppins ExtraLight"), url("/src/fonts/Poppins/Poppins-ExtraLight.ttf") format("truetype");
+  }

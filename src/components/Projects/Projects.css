@@ -1,0 +1,66 @@
+#projects {
+    padding-left: 15%;
+    padding-right: 25%;
+    min-height: 60vh;
+  }
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    column-gap: 10px;
+    row-gap:75px;
+  }
+
+.projects-card {
+    position: relative;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    padding: 2rem 1.75rem;
+    background-color: var(--lighter-blue-green);
+    border-radius: 16px;
+  }
+
+.card-title {
+    font-family: "Poppins", sans-serif;
+    color: var(--pink);
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+.card-desc {
+    font-family: "Poppins", sans-serif;
+    color: var(--slate);
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+.card-tech {
+    font-family: "Poppins", sans-serif;
+    color: var(--slate);
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+.external-link1 {
+    font-family: Poppins, sans-serif;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    left: 1rem;
+    color: var(--slate);
+    font-size: 14px;
+  }
+
+.external-link2 {
+    font-family: Poppins, sans-serif;
+    position: absolute;
+    bottom: 3rem;
+    right: 1rem;
+    left: 1rem;
+    color: var(--slate);
+    font-size: 14px;
+  }
+
