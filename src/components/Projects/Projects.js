@@ -69,7 +69,7 @@ class Projects extends React.Component {
                 desc:
                   "handbook",
                 techStack: "Canva",
-                link: "../../assets/CMCP/Indoor & Outdoor Programming Staff Handbook.pdf",
+                link: require("../../assets/CMCP/Indoor & Outdoor Programming Staff Handbook.pdf"),
                 open: "https://docs.google.com/document/d/1zhD15yeeT-Vbr9CP37-rgyzWX8-ed9rvzmiKKuxoDWU/edit?usp=sharing"
               }, // doesn't work
             
