@@ -20,18 +20,24 @@ class Introduction extends React.Component {
     render() {
         return (
             <div id="home">
-            <span className="name">
-                {"Thao Nguyen"}
-            </span>
-            
-            <div className="intro-desc">
-                Creating through the lens of a story-teller, designer, and problem solver. Interested in software development, design, and entrepreneurship opportunities.
-
-                Let's connect!
-            </div>
-            <div className="intro-warning">
-            This site is still under development but contains my most updated portfolio. <a href="https://thaothecow.github.io/" target="_blank" rel="noopener noreferrer">Click here</a> to visit my old portfolio site.
-            </div>
+              <span className="name">
+                  {"Thao Nguyen"}
+              </span>
+              
+              <div className="intro-desc">
+                  I create as a developer, designer, and story-teller. I'm interested in software development, design, human-computer interaction, and entrepreneurship.
+                  <br></br>
+                  <br></br>
+                  Let's connect! Here's my <a href="https://www.linkedin.com/in/thao-nnguyen/" target="_blank" rel="noopener noreferrer">LinkedIn</a> and <a href="https://github.com/thaothecow" target="_blank" rel="noopener noreferrer">GitHub</a>.
+                  <br></br>
+                  <br></br>
+                  This updated portfolio website is still under develoment (so it may look a little messy) {" "}
+                  <a href="https://thaothecow.github.io/" target="_blank" rel="noopener noreferrer">Click here</a> to visit my old portfolio site.
+                  <br></br>
+                  <br></br>
+                  Scroll down for more!
+    
+              </div>
             </div>
         );
     }

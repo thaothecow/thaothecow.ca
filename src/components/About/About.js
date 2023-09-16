@@ -19,17 +19,19 @@ class About extends React.Component {
     }
     render() {
         return (
-            <div id="home">
-            <span className="name">
+            <div id="about">
+            <span className="title">
                 {"About"}
             </span>
             
-            <div className="intro-desc">
-                I am a 4th year Computer Science Student at Toronto Metropolitan University. I have experience in software development, design, and entrepreneurship.
+            <div className="about-desc">
+                I'm a 4th year Computer Science Co-op Student at Toronto Metropolitan University. I have experience in software development, design, and entrepreneurship. I'm also passionate about volunteerism, tech events, and accessibility.
                 <br></br>
-                I am also passionate about volunteerism, tech-related events, and accessibility.
-                If you'd like to read a bit more about me and my time as an undergrad, my work experience so far 
-                and my work with student groups and such, feel free to here.
+                <br></br>
+                {/* if you want to read more about me, my work experience so far, and my involvement with student groups.
+                <br></br>
+                <br></br> */}
+                I'm building a startup called PilotASD! <a href="https://www.linkedin.com/posts/thao-nnguyen_thedmz-dmzbasecamp-pitchcompetition-activity-7103894578981728256-SILY?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer">Click Here</a> Click here to learn more about it.  
             </div>
             </div>
         );

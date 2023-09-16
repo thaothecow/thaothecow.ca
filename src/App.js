@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div id="content">
         <Introduction></Introduction>
         <About></About>
         <Projects></Projects>
@@ -25,6 +26,7 @@ function App() {
         >
           Learn React
         </a> */}
+        </div>
       </header>
     </div>
   );

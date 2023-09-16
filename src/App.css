@@ -5,6 +5,24 @@
   flex-direction: row;
 }
 
+#content {
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    flex-direction: column;
+    padding: 40px 24px;
+  }
+
+  #content {
+    padding: 10px 10px;
+    width: 100%;
+  }
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
