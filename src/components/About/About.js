@@ -31,7 +31,7 @@ class About extends React.Component {
                 {/* if you want to read more about me, my work experience so far, and my involvement with student groups.
                 <br></br>
                 <br></br> */}
-                I'm building a startup called PilotASD! <a href="https://www.linkedin.com/posts/thao-nnguyen_thedmz-dmzbasecamp-pitchcompetition-activity-7103894578981728256-SILY?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer">Click Here</a> Click here to learn more about it.  
+                I'm building a startup called PilotASD! <a href="https://www.linkedin.com/posts/thao-nnguyen_thedmz-dmzbasecamp-pitchcompetition-activity-7103894578981728256-SILY?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer">Click Here</a> to learn more about it.  
             </div>
             </div>
         );
