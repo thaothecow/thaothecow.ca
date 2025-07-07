@@ -5,7 +5,7 @@ import "./Projects.css";
 function Projects() {
   const projects = [
     {
-      title: "Portfolio Website (2023) (in progress)",
+      title: "Portfolio Website (2023)",
       desc: "Revamping my portfolio website.",
       techStack: "React",
       link: "",
@@ -28,7 +28,7 @@ function Projects() {
       open: ""
     },
     {
-      title: "Portfolio Website (2021)",
+      title: "Portfolio Website (old)",
       desc:
         "Personal portfolio website to showcase all my skills and interests",
       techStack: "HTML, CSS and JavaScript",
@@ -54,14 +54,6 @@ function Projects() {
       link: "https://www.figma.com/proto/F5wRB3t9w53HW66lBKumLT/CPS613---P3?scaling=scale-down&page-id=0%3A1&starting-point-node-id=56%3A4&node-id=56-4",
       open: "https://docs.google.com/document/d/1zhD15yeeT-Vbr9CP37-rgyzWX8-ed9rvzmiKKuxoDWU/edit?usp=sharing"
     },
-    {
-      title: "Staff Handbook",
-      desc:
-        "Although the template and graphics are from Canva, please take note of my arrangement of design and content",
-      techStack: "Canva",
-      link: require("../../assets/CMCP/Indoor & Outdoor Programming Staff Handbook.pdf"),
-      open: ""
-    }, 
       
   ];
 

@@ -1,0 +1,28 @@
+#about-continued {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 15%;
+    min-height: 100vh;
+    gap: 2rem;
+  }
+
+.title {
+    font-family: "Poppins", sans-serif;
+    color: var(--pink);
+    font-size: clamp(3rem, 8vw, 40px);
+    line-height: 1.1;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+.about-desc {
+    font-family: "Poppins", sans-serif;
+    color: var(--slate);
+    font-size: clamp(18px, 2.5vw, 22px);
+    line-height: 1.6;
+    margin: 0;
+    text-align: center;
+}

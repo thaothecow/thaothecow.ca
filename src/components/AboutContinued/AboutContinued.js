@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./AboutMore.css";
+import "./AboutContinued.css";
 
 function AboutContinued() {
 
@@ -11,7 +11,7 @@ function AboutContinued() {
       </span>
       
       <div className="about-desc">
-          Coming soon! 
+          <p>coming soon</p>
       </div>
       </div>
   );
