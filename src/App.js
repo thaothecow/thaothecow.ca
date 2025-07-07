@@ -5,6 +5,7 @@ import "./styles/font.css";
 import Introduction from './components/Home/Home.js';
 import About from './components/About/About.js';
 import Projects from './components/Projects/Projects.js';
+import Experience from './components/Experience/Experience.js';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <div id="content">
         <Introduction></Introduction>
         <About></About>
+        <Experience></Experience>
         <Projects></Projects>
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
